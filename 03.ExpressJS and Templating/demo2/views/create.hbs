@@ -1,0 +1,10 @@
+<h1>Add New Part</h1>
+{{#if error}}
+<p class="error">All fields are required.</p>
+{{/if}}
+<form method="post">
+<label {{#if error.name}}class="error"{{/if}}>Name: <input name="name" value="{{name}}"></label>
+<label {{#if error.price}}class="error"{{/if}}>Price: <input type="number" name="price" value="{{price}}"></label>
+<label {{#if error.description}}class="error"{{/if}}>Description: <input name="description" value="{{description}}"></label>
+<button>Publish</button>
+</form>

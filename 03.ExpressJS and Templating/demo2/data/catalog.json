@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "name": "Brake Pad",
+      "description": "High-performance ceramic brake pads for optimal stopping power.",
+      "price": 35.99,
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "name": "Oil Filter",
+      "description": "Durable oil filter for enhanced engine protection and performance.",
+      "price": 10.49,
+      "stock": 35,
+      "stock": 85
+    },
+    {
+      "id": 3,
+      "name": "Headlight Bulb",
+      "description": "Bright and long-lasting headlight bulb for improved visibility.",
+      "price": 15.99,
+      "stock": 5
+
+    },
+    {
+      "id": 4,
+      "name": "Air Filter",
+      "description": "High-efficiency air filter for cleaner air intake and better engine performance.",
+      "price": 12.75,
+      "stock": 0
+    },
+    {
+      "id": 5,
+      "name": "Spark Plug",
+      "description": "Reliable spark plug for consistent engine ignition and fuel efficiency.",
+      "price": 6.99,
+      "stock": 5
+    }
+  ]
+  

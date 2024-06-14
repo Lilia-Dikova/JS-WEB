@@ -1,0 +1,10 @@
+<h1>Catalog Page</h1>
+<p>Catalog Content</p>
+<ul>
+{{#each parts}}
+<li><a href="/catalog/{{id}}">{{name}} &mdash; ${{price}}</li></a>
+{{else}}
+<p>No parts matching your criteria</p>
+{{/each}}
+
+</ul>
