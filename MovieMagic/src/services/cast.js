@@ -6,7 +6,7 @@ async function createCast(castData) {
         age: castData.age,
         born: castData.born,
         nameInMovie: castData.nameInMovie,
-        imageUrl: castData.imageUrl,
+        imageUrl: castData.imageURL,
         movie: castData.movie
     });
 
